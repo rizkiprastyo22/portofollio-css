@@ -9,16 +9,16 @@
 .page-content{
     width: 500px;
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    background-color: white;
 }
 
 /* ngatur elemen ke kiri */
 .left{
     width: 35%;
     float: left;
-    background-color: rgb(2, 117, 216);
-    color: white;
+    background-color: burlywood;
+    color: black;
 }
 
 /* ngatur elemen sebelah kanan */
@@ -42,6 +42,10 @@
     margin-right: auto;
 }
 
+
+/* NGATUR TIAP ELEMEN */
+
+/* ngatur foto profil */
 .foto-profil{
     margin-top: 30px;
 }
@@ -53,6 +57,7 @@
     font-weight: 900;
 }
 
+/* ngatur header jabatan */
 .header-jabatan{
     font-size: 20px;
     text-align: center;
@@ -60,6 +65,7 @@
     margin-top: 5px;
 }
 
+/* ngatur header perusahaan */
 .header-perusahaan{
     font-size: 18px;
     text-align: center;
@@ -67,9 +73,66 @@
     margin-top: 5px;
 }
 
+/* ngatur deskripsi singkat */
 .deskripsi-singkat{
     font-size: 14px;
     font-weight: 300;
     margin-top: 20px;
     margin-left: 10px;
+}
+
+/* list-items */
+.list-items li{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+/* a di dalam list-items */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* h5 dalam achievements */
+.achievements h5{
+    margin-top: 10px;
+}
+
+/* ul dalam achievements */
+.achievements ul{
+    margin-top: 10px;
+}
+
+/* biar kotaknya full */
+.achievements{
+    margin-bottom: 70px;
+}
+
+.header-jabatan-pengalaman{
+    width: 65%;
+    float: left;
+    margin-top: 10px;
+}
+
+.header-periode-pengalaman{
+    width: 35%;
+    float: right;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.header-tempat-pengalaman{
+    margin-top: 2px;
+}
+
+.deskripsi-pengalaman{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.education{
+    margin-bottom: 10px;
 }
